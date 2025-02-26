@@ -1,0 +1,30 @@
+body {
+    
+    background-repeat: no-repeat center fixed;
+    background: url("/homeimg.jpg") fixed no-repeat center;
+    padding:  60px 50px;
+}
+
+
+
+
+
+.main {
+    border: 2px solid black;
+    background-color: aqua;
+    display: flex;
+    justify-content: left;
+    background: rgb(115, 99, 130);
+    padding: 5px 80px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    
+    align-content: left;
+    width: 300px;
+}
+
+.left {
+    background-color: white;
+    color: rgb(22, 27, 28);
+}
+    

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Amita:wght@700&family=Kalnia:wght@400;600&family=Permanent+Marker&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
+  <style>
+    body {
+      background-color: rgb(0, 0, 33);
+      color: white;
+      font-family: 'Kalnia', serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .main {
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      color: rgb(176, 13, 236);
+      font-size: 2.5rem;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      margin-top: 40px;
+      padding: 20px;
+    }
+
+    .image img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 50%;
+    }
+
+    .right {
+      max-width: 700px;
+      font-size: 1rem;
+      text-align: justify;
+      padding: 10px;
+    }
+
+    /* Media Queries */
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      .container {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+      }
+
+      .right {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      .right {
+        font-size: 0.8rem;
+        padding: 10px 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main">
+    <h1>Welcome to my Portfolio</h1>
+    <div class="container">
+      <div class="image">
+        <img src="./IMG/MyPassport.jpeg" alt="My Passport Photo">
+      </div>
+      <div class="right">
+        I am a skilled Java Developer experienced in both Core Java and Advanced Java technologies. With expertise in
+        Core Java concepts like OOPs, Exception Handling, Collection, and JDBC, I possess a strong foundation in
+        developing robust applications. Additionally, my proficiency in Advanced Java encompasses Hibernate, MySQL
+        Database, Servlets, JSP, Spring, and Spring Boot Framework. I excel at leveraging these technologies to build
+        scalable and efficient solutions. With my comprehensive knowledge and hands-on experience, I am committed to
+        delivering high-quality software solutions. Let's connect on LinkedIn to explore opportunities where I can
+        contribute my Java expertise to your organization's success.
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

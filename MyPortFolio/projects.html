@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+ * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Kalnia', serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(16, 3, 65);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(173, 173, 194);
+    font-size: 1.02rem;
+}
+
+main hr {
+    border: 0;
+    background: rgba(134, 139, 131, 0.151);
+    height: 4px;
+    margin: 10px 24px;
+}
+
+.project {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px
+}
+h2 {
+    padding: 20px 0;
+    text-align: center;
+}
+img {
+    image-orientation: none;
+    image-orientation: from-image;
+}
+</style>
+</head>
+<body>
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <img src="OnlineExamStart.jpg" alt="">
+            <h3>Project Name: Online Exam</h3>
+            <p>Description: 
+                Description: There are 2 users of this project. User admin will manage questions which are MCQ questions. The user 
+                admin will also set the duration of the exam. User students will take exams. Users will get to see one question at a time. 
+                Once the user submits an answer to a particular question, the user can go to the next or previous question. Users can 
+                also update answers. Once the user ends the exam, the score will be calculated and displayed. Users will see all 
+                submitted question’s correct answers and submitted answers at the end of the exam.</p>
+            <a href="https://github.com/AnkitChopade/OnlineExam" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Project Name: Online BookStore</h3>
+            <p>Description: In this project, I have made a bookstore where we can add and remove our books with their names and author names.
+                You can add new books to the bookstore by clicking on the New Book register. I have made two tables in the database
+                My books and & books. We can edit or update the books by clicking on available books.</p>
+            <a href="https://github.com/AnkitChopade/BookStore" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Project Name: Product Management System</h3>
+            <p>Description:The Product Management System is a Java-based application that enables users to efficiently manage product records through **Create, Read, Update, and Delete (CRUD)** operations. Built using **Java, JDBC, and MySQL**, it provides a user-friendly interface for adding, editing, and deleting product details such as name, price, and quantity. This project showcases strong **backend development skills**, database integration, and object-oriented programming principles. 🚀 </p>
+            <a href="https://github.com/AnkitChopade/ProductManage" target="_blank">View Project</a>
+        </div>
+        <!-- Add more projects as needed -->
+    </section> 
+</body>
+</html>

@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+
+    .parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+}
+    
+.div1 {
+    grid-column: span 2 / span 2;
+    grid-row: span 5 / span 5;
+}
+
+.div2 {
+    grid-row: span 2 / span 2;
+    grid-column-start: 5;
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    padding: 9;
+}
+
+
+.div3 {
+    grid-row: span 2 / span 2;
+    grid-column-start: 4;
+}
+
+.div4 {
+    grid-row: span 2 / span 2;
+    grid-column-start: 5;
+}
+
+.div5 {
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+
+.div6 {
+    grid-row: span 2 / span 2;
+    grid-column-start: 4;
+    grid-row-start: 3;
+}
+
+.div7 {
+    grid-row: span 2 / span 2;
+    grid-column-start: 5;
+    grid-row-start: 3;
+}
+
+.div8 {
+    grid-column-start: 3;
+    grid-row-start: 5;
+}
+
+.div9 {
+    grid-column-start: 4;
+    grid-row-start: 5;
+}
+
+.div10 {
+    grid-column-start: 5;
+    grid-row-start: 5;
+}
+        
+        
+</style>
+<body>
+  
+<div class="parent">
+    <div class="div1"><div class="project">
+        <h3>Project Name: Online Exam</h3>
+        <p>Description: 
+            Description: There are 2 users of this project. User admin will manage questions which are MCQ questions. The user 
+            admin will also set the duration of the exam. User students will take exams. Users will get to see one question at a time. 
+            Once the user submits an answer to a particular question, the user can go to the next or previous question. Users can 
+            also update answers. Once the user ends the exam, the score will be calculated and displayed. Users will see all 
+            submitted question’s correct answers and submitted answers at the end of the exam.</p>
+        <a href="https://github.com/AnkitChopade/OnlineExam" target="_blank">View Project</a>
+    </div></div>
+    <div class="div2">
+        <img src=".IMG/OnlineExamStart.jpg" alt="Online Exam Project Image">
+    </div>
+    <div class="div3">3</div>
+    <div class="div4">4</div>
+    <div class="div5">5</div>
+    <div class="div6">6</div>
+    <div class="div7">7</div>
+    <div class="div8">8</div>
+    <div class="div9">9</div>
+    <div class="div10">10</div>
+</div>
+    
+      
+</body>
+</html>
+
+    
